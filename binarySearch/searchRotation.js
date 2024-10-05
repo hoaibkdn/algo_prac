@@ -86,10 +86,10 @@ var search = function (nums, target) {
   return binarySearch2(nums.slice(0, s), target);
 };
 
-// console.log(search([4,5,6,7,0,1,2], 0))
-// console.log(search([4,5,6,7,0,1,2], 2))
-// console.log(search([4,5,6,7,0,1,2], 3))
-// console.log(search([4,5,6,7,0,1,2], 8))
-// console.log(search([4,5,6,7,0,1,2], 5))
-// console.log(search([4,5,6,7], 7))
-// console.log(search([4,5,6,7], 2))
+console.log(search([4,5,6,7,0,1,2], 0))
+console.log(search([4,5,6,7,0,1,2], 2))
+console.log(search([4,5,6,7,0,1,2], 3))
+console.log(search([4,5,6,7,0,1,2], 8))
+console.log(search([4,5,6,7,0,1,2], 5))
+console.log(search([4,5,6,7], 7))
+console.log(search([4,5,6,7], 2))
